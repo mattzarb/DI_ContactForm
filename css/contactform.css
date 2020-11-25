@@ -1,0 +1,15 @@
+
+div#cf-result {margin-bottom: 35px; min-height:32px;}
+div#cf-result p {margin: 0 0 5px 0;}
+
+p.cf-success {color: #42DCA3;}
+p.cf-error {color: #fff;}
+input.cf-error, textarea.cf-error {border:#FF0000 2px solid !important;}
+p.cf-error:before{
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-right: 6px;
+    vertical-align: middle;
+    color: #ff0000;
+    content: "\f06a";
+}
